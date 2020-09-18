@@ -2,10 +2,10 @@ package com.practice3;
 
 public class MovablePoint implements Movable{
 
-    public int x;
-    public int y;
-    public int xSpeed;
-    public int ySpeed;
+    int x;
+    int y;
+    int xSpeed;
+    int ySpeed;
 
     public MovablePoint(int x, int y, int xSpeed, int ySpeed){
         this.x = x;
@@ -20,21 +20,21 @@ public class MovablePoint implements Movable{
 
     @Override
     public void moveUp() {
-
+        this.y += this.ySpeed;
     }
 
     @Override
     public void moveDown() {
-
+        this.y -= this.ySpeed;
     }
 
     @Override
     public void moveLeft() {
-
+        this.x -= this.xSpeed;
     }
 
     @Override
     public void moveRight() {
-
+        this.x += this.xSpeed;
     }
 }
