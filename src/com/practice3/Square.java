@@ -37,6 +37,6 @@ public class Square extends Rectangle{
 
     @Override
     public String toString() {
-        return "Squart, Side = " + getSide();
+        return "Square, Side = " + getSide();
     }
 }

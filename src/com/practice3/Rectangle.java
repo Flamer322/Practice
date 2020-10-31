@@ -51,6 +51,6 @@ public class Rectangle extends Shape{
 
     @Override
     public String toString() {
-        return "Rectagle, Width = " + this.width + ", Length = " + this.length;
+        return "Rectangle, Width = " + this.width + ", Length = " + this.length;
     }
 }
